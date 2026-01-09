@@ -116,15 +116,6 @@ const GoogleBlog: React.FC<GoogleBlogProps> = ({ onBackToSearch, onToFB }) => {
           </div>
 
           <div className="p-8 md:p-12">
-            <div className="flex items-center space-x-2 text-gray-400 text-xs mb-6 font-mono uppercase tracking-tighter">
-              <span>Section</span>
-              <span className="bg-blue-600 text-white px-2 py-0.5 rounded">
-                {activeSlide + 1}
-              </span>
-              <span>of</span>
-              <span>{blogSlides.length}</span>
-            </div>
-
             <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed font-sans">
               <ul className="space-y-6 mb-8">
                 {current.points.map((p, i) => (

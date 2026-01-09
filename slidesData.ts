@@ -9,6 +9,16 @@ import slide7 from "./assets/slide7.png";
 import slide8 from "./assets/slide8.jpeg";
 import slide9 from "./assets/slide9.jpg";
 import slide10 from "./assets/slide10.webp";
+import slide11 from "./assets/slide11.jpg";
+import slide12 from "./assets/slide12.webp";
+import slide13 from "./assets/slide13.webp";
+import slide14 from "./assets/slide14.png";
+import slide15 from "./assets/slide15.png";
+import slide16 from "./assets/slide16.jpg";
+import slide17 from "./assets/slide17.png";
+import slide18 from "./assets/slide18.png";
+import slide19 from "./assets/slide19.jpg";
+// import slide20 from "./assets/slide20.png";
 
 export const slides: Slide[] = [
   // Question 1
@@ -196,15 +206,15 @@ export const slides: Slide[] = [
   // Question 3
   {
     id: 11,
-    question: "Question 3: Google Data Ecosystem",
+    question: "Google Data Ecosystem",
     title: "The Google Data Ecosystem",
     points: [
       "Services: Gmail, Search, YouTube, Maps",
-      "Platforms: Android, Chrome",
-      "Each service collects different pieces of your life",
-      "Integrated tracking across the web",
+      "Google processes over 8.5 billion searches per day",
+      "Google Maps can infer your routines (home, office, gym) even if you never explicitly save them.",
+      "Android collects background activity data, such as app usage patterns, even when apps are not actively open.",
     ],
-    image: "https://picsum.photos/seed/google1/800/600",
+    image: slide11,
     author: "Search Master",
     timestamp: "11h",
     likes: 98,
@@ -213,15 +223,15 @@ export const slides: Slide[] = [
   },
   {
     id: 12,
-    question: "Question 3: Google Data Ecosystem",
+    question: "Google Data Ecosystem",
     title: "Why Google Combines Data",
     points: [
       "Improve personalization and user experience",
       "Serve highly targeted ads (Revenue driver)",
-      "Create unified user profiles",
+      "Data becomes exponentially more valuable when combined",
       "One login = one digital identity",
     ],
-    image: "https://picsum.photos/seed/google2/800/600",
+    image: slide12,
     author: "Ad Strategist",
     timestamp: "12h",
     likes: 150,
@@ -230,16 +240,16 @@ export const slides: Slide[] = [
   },
   {
     id: 13,
-    question: "Question 3: Google Data Ecosystem",
+    question: "Google Data Ecosystem",
     title: "Privacy Implications",
     points: [
       "Reveals interests, location, health concerns",
-      "Tracks political views and daily routines",
-      "Google knows where you go and what you think",
+      "Location patterns are nearly impossible to anonymize—four location points can uniquely identify 95% of people.",
+      "Advertisers don’t buy data, they buy predictions",
       "Future predictions of buying behavior",
     ],
     funLine: "Google: We know you better than you know yourself.",
-    image: "https://picsum.photos/seed/google3/800/600",
+    image: slide13,
     author: "Cyber Watch",
     timestamp: "13h",
     likes: 1200,
@@ -248,15 +258,15 @@ export const slides: Slide[] = [
   },
   {
     id: 14,
-    question: "Question 3: Google Data Ecosystem",
+    question: "Google Data Ecosystem",
     title: "Ethical & Social Concerns",
     points: [
       "Users unaware of full data linkage depth",
       "No real opt-out without losing essential services",
-      "Massive power imbalance (Company vs User)",
-      "Privacy becomes systemically impossible",
+      "Most users never read privacy policies",
+      "Consent is often bundled, forcing users to accept tracking to access essential services like email or maps.",
     ],
-    image: "https://picsum.photos/seed/google4/800/600",
+    image: slide14,
     author: "Sociologist",
     timestamp: "14h",
     likes: 430,
@@ -265,7 +275,7 @@ export const slides: Slide[] = [
   },
   {
     id: 15,
-    question: "Question 3 Conclusion",
+    question: "Conclusion",
     title: "Conclusion: Convenience vs Autonomy",
     points: [
       "Data combination amplifies privacy risks",
@@ -273,7 +283,8 @@ export const slides: Slide[] = [
       "Convenience comes at the cost of autonomy",
       "Google users trade privacy for free services",
     ],
-    image: "https://picsum.photos/seed/google5/800/600",
+    funLine: "Is personalization worth permanent traceability?",
+    image: slide15,
     author: "Tech Ethics",
     timestamp: "15h",
     likes: 990,
@@ -283,7 +294,7 @@ export const slides: Slide[] = [
   // Question 4
   {
     id: 16,
-    question: "Question 4: Google Street View",
+    question: "Google Street View",
     title: "What Is Google Street View?",
     points: [
       "Captures images of streets, houses, neighborhoods",
@@ -291,7 +302,7 @@ export const slides: Slide[] = [
       "Publicly accessible worldwide",
       "Your house is online — whether you like it or not",
     ],
-    image: "https://picsum.photos/seed/street1/800/600",
+    image: slide16,
     author: "Map Explorer",
     timestamp: "16h",
     likes: 220,
@@ -300,7 +311,7 @@ export const slides: Slide[] = [
   },
   {
     id: 17,
-    question: "Question 4: Google Street View",
+    question: "Google Street View",
     title: "Argument: NOT a Breach",
     points: [
       "Images taken from public roads",
@@ -308,7 +319,7 @@ export const slides: Slide[] = [
       "Faces and license plates are blurred",
       "Legal justification: Public domain observation",
     ],
-    image: "https://picsum.photos/seed/street2/800/600",
+    image: slide17,
     author: "Legal Scholar",
     timestamp: "17h",
     likes: 180,
@@ -317,7 +328,7 @@ export const slides: Slide[] = [
   },
   {
     id: 18,
-    question: "Question 4: Google Street View",
+    question: "Google Street View",
     title: "Argument: IS a Breach",
     points: [
       "Homes linked to exact locations",
@@ -325,7 +336,7 @@ export const slides: Slide[] = [
       "Can be misused for stalking or profiling",
       "No explicit consent obtained for digital permanence",
     ],
-    image: "https://picsum.photos/seed/street3/800/600",
+    image: slide18,
     author: "Privacy Advocate",
     timestamp: "18h",
     likes: 670,
@@ -334,7 +345,7 @@ export const slides: Slide[] = [
   },
   {
     id: 19,
-    question: "Question 4: Google Street View",
+    question: "Google Street View",
     title: "Personal Reflection",
     points: [
       "Looking up one's address creates discomfort",
@@ -343,7 +354,7 @@ export const slides: Slide[] = [
       "Just because it's legal doesn't mean it feels right",
     ],
     funLine: "My home, my castle... now on everyone's screen.",
-    image: "https://picsum.photos/seed/street4/800/600",
+    image: slide19,
     author: "Homeowner",
     timestamp: "19h",
     likes: 440,
