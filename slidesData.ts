@@ -1,9 +1,9 @@
 import { Slide } from "./types";
 import slide1 from "./assets/slide1.jpeg";
 import slide2 from "./assets/slide2.jpg";
-// import slide3 from "./assets/slide3.jpg";
+import slide3 from "./assets/slide3.png";
 import slide4 from "./assets/slide4.png";
-// import slide5 from "./assets/slide5.jpg";
+import slide5 from "./assets/slide5.png";
 import slide6 from "./assets/slide6.png";
 import slide7 from "./assets/slide7.png";
 import slide8 from "./assets/slide8.jpeg";
@@ -72,7 +72,7 @@ export const slides: Slide[] = [
     ],
     funLine:
       "The very foundation of Facebook’s business model is to sell the personal private information of its users to advertisers",
-    image: slide2,
+    image: slide3,
     author: "Keyur Puri",
     timestamp: "3h",
     likes: 412,
@@ -106,7 +106,7 @@ export const slides: Slide[] = [
       "Privacy is about control, not secrecy",
       "Facebook’s practices often exceed user expectations",
     ],
-    image: slide2,
+    image: slide5,
     author: "Keyur Puri",
     timestamp: "5h",
     likes: 892,
@@ -193,8 +193,8 @@ export const slides: Slide[] = [
     points: [
       "Controls provide surface-level privacy",
       "Ineffective against data mining and profiling",
-      "Ineffective against platform-level surveillance",
-      "Controls help, but do not fully protect",
+      "Surveillance goes beyond Fb app (Meta quest, Meta glasses)",
+      "Should have read the Terms and Conditions!",
     ],
     image: slide10,
     author: "Saras Karanjit",

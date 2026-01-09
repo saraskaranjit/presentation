@@ -168,6 +168,13 @@ const GoogleBlog: React.FC<GoogleBlogProps> = ({ onBackToSearch, onToFB }) => {
             is the new normal.
           </p>
         </div>
+        <a
+          href="https://www.youtube.com/watch?v=uaaC57tcci0"
+          class="px-5 py-3.5 bg-[#c4302b] text-white rounded-[7px]"
+          target="_blank"
+        >
+          The Social Dilemma on YouTube!
+        </a>
       </main>
 
       <footer className="bg-gray-900 text-gray-400 py-20 px-4">
